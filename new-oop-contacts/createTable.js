@@ -8,8 +8,8 @@ contactApp.tableUpdate = function () {
             '<td>' + contact.phone + '</td>' +
             '<td>' + contact.streetAddress + '</td>' +
             '<td>' + contact.city + '</td>' +
-            '<td><button class="contactEditBtn" onclick="contactApp.editContact(' + contact.id + ')">edit</button></td>' +
-            '<td><button class="contactDelBtn" onclick="contactApp.deleteContact(' + contact.id + ')">del</button></td>' +
+            '<td><button class="contactEditBtn mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="contactApp.editContact(' + contact.id + ')">edit</button></td>' +
+            '<td><button class="contactDelBtn mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="contactApp.deleteContact(' + contact.id + ')">del</button></td>' +
             '</tr>');
     });
 }
